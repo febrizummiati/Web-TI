@@ -1,0 +1,123 @@
+<html>
+<head>
+	<title> Halaman Pendaftaran </title>
+	<link rel="stylesheet" type="text/css" href="animate.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<h1>TEKNOLOGI INFORMASI<br>
+		POLITEKNIK NEGERI PADANG</h1>
+	</div>
+
+	<div id="d1"></div>
+
+	<table width="100%" border="0" class="t1">
+		<tr>
+			<td width="500px"></td>
+			<td width="50px"><a href="index.html">Home</a><hr></td>
+			<td width="50px"><a href="Registrasi.html">Registrasi</a><hr></td>
+			<td width="50px"><a href="Login.html">Login</a><hr></td>
+			<td width="50px"><a href="contact">Contact Us</a><hr></td>
+		</tr>
+	</table>
+
+	<div id="d1"></div>
+
+	<div id="d2" style="height: 120%;"></div>
+
+	<div id="menu" style="height: 120%;">
+		<table width="10%" border="0" class="t2">	
+			<tr><a href="sejarah.html">Sejarah</a><hr></tr>
+			<tr><a href="vm.html">Visi & Misi</a><hr></tr>
+			<tr><a href="struktur.html">Struktur</a><hr></tr>
+			<tr><a href="prodi.html">Prodi</a><hr></tr>
+			<tr><a href="fasilitas.html">Fasilitas</a><hr></tr>
+			<tr><a href="lokasi.html">Lokasi</a><hr>
+		</table>	
+	</div>
+
+	<div id="d2" style="height: 120%;"></div>
+
+	<div id="d3" style="padding-top: 10px; height: 120%;">
+	<font size="20px"> Form Pendaftaran</font>
+	<table width="100%" border="0" height="700px" class="t2" cellspacing="0">
+		<tr>
+			<td valign="top" class="menu">
+				<p>
+				<form>
+					<table border="0" width="60%" class="animated fadeInUpBig" >
+						<tr >
+							<td width="150px"><label for="name">Name </label></td>
+							<td><input type="text" name="name" id="name"></td>
+						</tr>
+						<tr>
+							<td><label for="tlahir">Tempat Lahir </label></td>
+							<td><input type="text" name="tlahir" id="tlahir"></td>
+						</tr>
+						<tr>
+							<td><label for="tgl">Tanggal Lahir </label></td>
+							<td><input type="date" name="tgl" id="tgl"></td>
+						</tr>
+						<tr>
+							<td><label >Jenis Kelamin</label></td>
+							<td><input type="radio" name="sex" value="Laki" checked=""> Laki Laki<br>
+								<input type="radio" name="sex" value="perempuan"> Perempuan</td>
+						</tr>
+						<tr>
+							<td><label for="No">No Hp </label></td>
+							<td><input type="text" name="No" id="No" style="width: 50%;"></td>
+						</tr>
+						<tr>
+							<td><label for="agama">Agama</label></td>
+							<td>
+								<select name="agama" id="agama">
+									<option value="pj">-- Pilih Agama --</option>
+									<option value="i">Islam</option>
+									<option value="k">Kristen</option>
+									<option value="h">Hindu</option>
+									<option value="b">Budha</option>
+									<option value="k">Kong Hu Chu</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="sklhasal">Sekolah Asal </label></td>
+							<td><input type="text" name="sklhasal" id="sklhasal"></td>
+						</tr>
+						<tr>
+							<td><label>Prestasi</label></td>
+							<td><input type="checkbox" name="ak">Akademik<br>
+								<input type="checkbox" name="nak">Non Akademik<br>
+						</tr>
+						<tr>
+							<td>Upload Foto</td>
+							<td><input type="file" name=""></td>
+						</tr>
+						<tr>
+							<td><label for="jurusan">Jurusan</label></td>
+							<td>
+								<select name="jurusan" id="jurusan">
+									<option value="pj">-- Pilih Jurusan --</option>
+									<option value="TK">Teknik Komputer</option>
+									<option value="MI">D3 Manajemen Informatika</option>
+									<option value="RPL">D4 Teknik Rekayasa Perangkat Lunak</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><label for="alamat">Alamat</label></td>
+							<td><textarea rows="4"></textarea></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td><input type="button" onclick="alert('Registrasi Anda telah Berhasil !!!')" name="" value="Daftar"></td>
+						</tr>
+					</table>
+					</form>
+				</p>
+			</td>
+		</tr>	
+	</table>
+</body>
+</html>
